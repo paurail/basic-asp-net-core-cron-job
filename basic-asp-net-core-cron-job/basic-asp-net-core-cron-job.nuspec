@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AspNetCore.CronJob</id>
+    <version>1.0.0</version>
+    <title>AspNetCore.CronJob</title>
+    <authors>Paulius Raila</authors>
+    <owners>Paulius Raila</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A lightweight scheduled task. Uses cron format.</description>
+    <projectUrl>https://github.com/paurail/basic-asp-net-core-cron-job</projectUrl>
+    <dependencies>
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="5.0.0" />
+        <dependency id="ncrontab" version="3.3.1" />
+    </dependencies>
+  </metadata>
+</package>

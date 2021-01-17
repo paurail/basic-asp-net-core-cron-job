@@ -42,7 +42,7 @@ steps:
   displayName: 'pack'
   inputs:
     command: 'pack'
-    packagesToPack: '**/*.csproj'
+    packagesToPack: '**/*.nuspec'
     versioningScheme: 'byBuildNumber'
 
 - task: NuGetCommand@2
