@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using NCrontab;
 
-namespace basic_asp_net_core_cron_job
+namespace AspNetCore.CronJob
 {
     public class BasicCronHostedService: IHostedService
     {
@@ -36,7 +36,7 @@ namespace basic_asp_net_core_cron_job
             return Task.CompletedTask;
         }
 
-        private int UntilNextExecution() => Math.Max(0, (int)_nextRun.Subtract(DateTime.Now).TotalMilliseconds);
+        private TimeSpan UntilNextExecution() => _nextRun.Subtract(DateTime.Now);
 
         public Task StopAsync(CancellationToken cancellationToken) => Task.CompletedTask;
     }

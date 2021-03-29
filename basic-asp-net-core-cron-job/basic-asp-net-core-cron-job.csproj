@@ -2,7 +2,7 @@
    
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>basic_asp_net_core_cron_job</RootNamespace>
+        <RootNamespace>AspNetCore.CronJob</RootNamespace>
         <PackageId>AspNetCoreCronJob</PackageId>
         <Title>AspNetCore Cron job</Title>
         <Authors>Paulius Raila</Authors>
@@ -10,6 +10,7 @@
         <PackageProjectUrl>https://github.com/paurail/basic-asp-net-core-cron-job</PackageProjectUrl>
         <ProjectUrl>https://github.com/paurail/basic-asp-net-core-cron-job</ProjectUrl>
         <IsPackable>true</IsPackable>
+        <AssemblyName>AspNetCore.CronJob</AssemblyName>
         
     </PropertyGroup>
     <ItemGroup>

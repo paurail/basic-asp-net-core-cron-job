@@ -2,9 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>basic_asp_net_core_cron_job.tests</RootNamespace>
+        <RootNamespace>AspNetCore.CronJob.tests</RootNamespace>
 
         <IsPackable>false</IsPackable>
+
+        <AssemblyName>AspNetCore.CronJob.tests</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>

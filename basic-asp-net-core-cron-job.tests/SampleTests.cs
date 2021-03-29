@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace basic_asp_net_core_cron_job.tests
+namespace AspNetCore.CronJob.tests
 {
     public class SampleTests
     {
