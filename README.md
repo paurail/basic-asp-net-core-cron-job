@@ -4,10 +4,10 @@ Having a lightweight, easy to configure cron service.
 
 # Usage:
 
-Inherit from base `SimpleCronHostedService`, provide cron schedule and action
+Inherit from base `BasicCronHostedService`, provide cron schedule and action
 
 ```
-public class SampleNightlyService: SimpleCronHostedService
+public class SampleNightlyService: BasicCronHostedService
     {
         private static string EveryNightAt2AM = "0 0 2 * * *";
 
